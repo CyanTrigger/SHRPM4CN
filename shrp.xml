@@ -5,5 +5,7 @@
              fetch="https://github.com/SKYHAWK-Recovery-Project" />
 
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SKYHAWK-Recovery-Project" revision="test"/>
+  <!-- Include external Magisk repo for repack binaries -->
+  <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SKYHAWK-Recovery-Project" revision="master" />
 
 </manifest>
