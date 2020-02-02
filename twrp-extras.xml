@@ -12,8 +12,6 @@
     <remove-project name="platform/bootable/recovery"/>
 <!-- SHRP Project Included -->
     <project path="bootable/recovery" name="shrp_bootable_recovery" remote="SKYHAWK-Recovery-Project" revision="test"/>
-<!-- Include external Magisk repo for repack binaries -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />
 	
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-9.0" />
